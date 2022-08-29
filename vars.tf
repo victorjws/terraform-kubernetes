@@ -17,3 +17,13 @@ variable "project_name" {
   default     = "kubernetes app"
   description = "project name"
 }
+
+variable "public_network" {
+  default     = "public"
+  description = "public network tag"
+}
+
+variable "private_network" {
+  default     = "private"
+  description = "private network tag"
+}
